@@ -4,7 +4,6 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-noetic-desktop-full
-apt search ros-noetic
 source /opt/ros/noetic/setup.bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo apt install python3-rosdep
